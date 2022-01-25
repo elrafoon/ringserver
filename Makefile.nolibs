@@ -1,3 +1,5 @@
+export LIBMSEED=mseed
+
 all clean install ::
 	$(MAKE) -C src -f Makefile.nolibs $@
 
